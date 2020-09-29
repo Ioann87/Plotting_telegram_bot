@@ -67,4 +67,5 @@ async def process_plot(message: types.Message, state: FSMContext):
 
 
 if __name__ == "__main__":
+    print("starting app")
     executor.start_polling(disp, skip_updates=True)
