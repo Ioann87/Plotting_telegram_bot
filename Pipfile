@@ -10,6 +10,7 @@ aiogram = "*"
 matplotlib = "*"
 sympy = "*"
 numpy = "*"
+coverage = "*"
 
 [requires]
 python_version = "3.8"

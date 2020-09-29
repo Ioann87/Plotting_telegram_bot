@@ -44,7 +44,7 @@ def get_keyboard() -> types.InlineKeyboardMarkup:
 
 @disp.callback_query_handler(processor_cb.filter(action=Actions.PLOTTING))
 async def query_show_list(query: types.CallbackQuery):
-    await query.message.edit_text("Введите вашу функцию:")
+    await query.message.edit_text("Введите вашу формулу:")
     await StateMachine.form_input.set()
 
 
